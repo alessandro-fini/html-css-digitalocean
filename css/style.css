@@ -37,3 +37,11 @@ section{
   }
 
 }
+
+@media screen and (max-width: 991px) {
+
+  .ht_left{
+    display: none;
+  }
+
+}
