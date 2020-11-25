@@ -1,12 +1,16 @@
 /* DEBUG */
 .debug .row [class*="col-"]{
   height: 90px;
-  background-color: rgb(111, 77, 0);
+  background-color: rgb(252, 215, 127);
   border: 1px solid white;
 }
 
 .h_90{
   height: 90px;
+}
+
+.h_120{
+  height: 120px;
 }
 
 .h_200{
@@ -20,4 +24,16 @@
 .bg_gray{
   background-color: gray;
 }
+
+section{
+  padding: 40px 0;
+}
 /* DEBUG */
+
+@media screen and (max-width:768px) {
+
+  .arrow{
+    display: none;
+  }
+
+}
