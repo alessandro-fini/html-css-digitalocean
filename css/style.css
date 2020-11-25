@@ -1,3 +1,23 @@
-body{
-  background-color: red;
+/* DEBUG */
+.debug .row [class*="col-"]{
+  height: 90px;
+  background-color: rgb(111, 77, 0);
+  border: 1px solid white;
 }
+
+.h_90{
+  height: 90px;
+}
+
+.h_200{
+  height: 200px;
+}
+
+.bg_blue{
+  background-color: lightblue;
+}
+
+.bg_gray{
+  background-color: gray;
+}
+/* DEBUG */
