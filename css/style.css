@@ -35,6 +35,10 @@
   color: #3a8aff;
 }
 
+.ms_color_white{
+  color: white;
+}
+
 section{
   padding: 40px 0;
 }
@@ -44,17 +48,29 @@ li{
   display: inline-block;
 }
 
+h1{
+  color: white;
+}
+
 /* HEADER */
-header nav{
+header{
+  width: 100vw;
   position: fixed;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;
+  background-color: white;
 }
 
 header nav img{
   width: 100%;
+}
+
+@media screen and (max-width: 991px) {
+  header nav img{
+    height: 28px;
+  }
 }
 
 header nav [class*="col-"]{
@@ -83,5 +99,7 @@ header nav .ms_btn:hover{
 
 .jumbotron{
   margin-top: 90px;
+  background-image: url('../img/bg-home-1.jpg');
 }
+
 /* /HEADER */
