@@ -48,6 +48,17 @@ li{
   display: inline-block;
 }
 
+h1{
+  font-size: 60px;
+}
+
+@media screen and (max-width: 1199px) {
+  h1{
+    font-size: 50px;
+  }
+
+}
+
 /* HEADER */
 header{
   width: 100vw;
@@ -102,6 +113,7 @@ header nav .ms_btn:hover{
 .ms_jumbotron .ms_box{
   background-color: white;
   border-radius: 5px;
+  padding: 20px 0;
 }
 
 .ms_jumbotron .ms_box input{
@@ -140,6 +152,7 @@ header nav .ms_btn:hover{
   transform: translateY(-50%);
   color: black;
 }
+
 
 
 /* /HEADER */
