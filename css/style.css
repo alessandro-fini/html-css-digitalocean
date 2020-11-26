@@ -25,32 +25,34 @@
   background-color: gray;
 }
 
+.ms_btn{
+  border: 1px solid #3a8aff;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.ms_color_blue{
+  color: #3a8aff;
+}
+
 section{
   padding: 40px 0;
 }
-/* DEBUG */
 
-/* @media screen and (max-width:768px) {
-
-  .arrow{
-    display: none;
-  }
-
-}
-
-@media screen and (max-width: 1199px) {
-
-  .ht_left{
-    display: none;
-  }
-
-} */
 li{
   list-style: none;
   display: inline-block;
 }
 
 /* HEADER */
+header nav{
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
 header nav img{
   width: 100%;
 }
@@ -62,5 +64,24 @@ header nav [class*="col-"]{
 
 header nav a{
   color: black;
+  text-decoration: none;
+}
+
+header nav li{
+  margin-left: 10px;
+}
+
+header nav .burger_menu{
+  font-size: 20px;
+  color: #3a8aff;
+}
+
+header nav .ms_btn:hover{
+  background-color: #3a8aff;
+  color: white;
+}
+
+.jumbotron{
+  margin-top: 90px;
 }
 /* /HEADER */
