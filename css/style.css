@@ -268,4 +268,66 @@ section#customers{
 
 }
 /* /SECOND SECTION */
+
+/* THIRD SECTION */
+#designed{
+  background-color: #f3f5f9;
+}
+
+#designed h2{
+  color: #031c4e;
+}
+
+#designed p{
+  color: #586686;
+}
+
+#designed img{
+  width: 100%;
+  margin-top: 80px;
+}
+
+#designed span{
+  width: 100%;
+  display: inline-block;
+  color: #031c4e;
+  margin: 10px 0 40px;
+  font-size: 15px;
+}
+
+#designed span i{
+  color: #006aff;
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+#designed .ms_arrow{
+  margin-top: 100%;
+  font-size: 20px;
+}
+
+#designed .ms_arrow_left{
+  color: #6f7b97;
+}
+
+#designed .ms_arrow_right{
+  color: #031c4e;
+}
+
+@media screen and (min-width: 992px) {
+
+  #designed span{
+    margin: 10px 0;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  #designed img{
+    width: 60%;
+  }
+
+}
+/* /THIRD SECTION */
 /* MAIN */
