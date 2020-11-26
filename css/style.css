@@ -48,10 +48,6 @@ li{
   display: inline-block;
 }
 
-h1{
-  color: white;
-}
-
 /* HEADER */
 header{
   width: 100vw;
@@ -64,12 +60,12 @@ header{
 }
 
 header nav img{
-  width: 100%;
+  height: 40px;;
 }
 
 @media screen and (max-width: 991px) {
   header nav img{
-    height: 28px;
+    height: 30px;
   }
 }
 
@@ -97,9 +93,53 @@ header nav .ms_btn:hover{
   color: white;
 }
 
-.jumbotron{
+.ms_jumbotron{
   margin-top: 90px;
   background-image: url('../img/bg-home-1.jpg');
+  padding: 40px 0;
 }
+
+.ms_jumbotron .ms_box{
+  background-color: white;
+  border-radius: 5px;
+}
+
+.ms_jumbotron .ms_box input{
+  width: 80%;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 10px 0;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.ms_jumbotron .ms_box .ms_account,
+.ms_jumbotron .ms_box .ms_account_google{
+  display: inline-block;
+  width: 80%;
+  border-radius: 5px;
+  padding: 10px 0;
+  margin-bottom: 5px;
+}
+
+.ms_jumbotron .ms_box .ms_account{
+  background-color: #579aff;
+  color: white;
+}
+
+.ms_jumbotron .ms_box .ms_account_google{
+  position: relative;
+  border: 1px solid lightgray;
+  color: black;
+}
+
+.ms_jumbotron .ms_box .ms_account_google i{
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+  color: black;
+}
+
 
 /* /HEADER */
