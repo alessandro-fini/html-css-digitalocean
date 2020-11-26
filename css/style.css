@@ -314,6 +314,10 @@ section#customers{
   color: #031c4e;
 }
 
+#designed i:hover{
+  cursor: pointer;
+}
+
 @media screen and (min-width: 992px) {
 
   #designed span{
@@ -330,4 +334,22 @@ section#customers{
 
 }
 /* /THIRD SECTION */
+
+/* FOURTH SECTION */
+#features img{
+  margin-top: 20px;
+}
+
+#features p{
+  color: #5c6a88;
+}
+
+#features a{
+  font-size: 18px;
+}
+
+#features i{
+  vertical-align: middle;
+}
+/* /FOURTH SECTION */
 /* MAIN */
