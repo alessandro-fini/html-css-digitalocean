@@ -30,7 +30,7 @@ section{
 }
 /* DEBUG */
 
-@media screen and (max-width:768px) {
+/* @media screen and (max-width:768px) {
 
   .arrow{
     display: none;
@@ -38,10 +38,29 @@ section{
 
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1199px) {
 
   .ht_left{
     display: none;
   }
 
+} */
+li{
+  list-style: none;
+  display: inline-block;
 }
+
+/* HEADER */
+header nav img{
+  width: 100%;
+}
+
+header nav [class*="col-"]{
+  height: 90px;
+  line-height: 90px;
+}
+
+header nav a{
+  color: black;
+}
+/* /HEADER */
