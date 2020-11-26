@@ -39,6 +39,10 @@
   color: white;
 }
 
+body{
+  text-decoration: none;
+}
+
 section{
   padding: 40px 0;
 }
@@ -54,9 +58,20 @@ h1{
 
 @media screen and (max-width: 1199px) {
   h1{
-    font-size: 50px;
+    font-size: 40px;
   }
 
+}
+
+a,
+a:hover,
+a:active,
+a:focus{
+  text-decoration: none;
+}
+
+a.text_underline:link{
+  text-decoration: underline;
 }
 
 /* HEADER */
@@ -94,6 +109,10 @@ header nav li{
   margin-left: 10px;
 }
 
+header nav li i{
+  margin-left: 2px;
+}
+
 header nav .burger_menu{
   font-size: 20px;
   color: #3a8aff;
@@ -107,7 +126,9 @@ header nav .ms_btn:hover{
 .ms_jumbotron{
   margin-top: 90px;
   background-image: url('../img/bg-home-1.jpg');
-  padding: 40px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 0;
 }
 
 .ms_jumbotron .ms_box{
@@ -123,6 +144,12 @@ header nav .ms_btn:hover{
   padding: 10px 0;
   font-size: 20px;
   margin-bottom: 5px;
+}
+
+.ms_jumbotron .ms_box input:hover,
+.ms_jumbotron .ms_box input:active,
+.ms_jumbotron .ms_box input:focus{
+  border: 1px solid #3a8aff;
 }
 
 .ms_jumbotron .ms_box .ms_account,
@@ -145,10 +172,11 @@ header nav .ms_btn:hover{
   color: black;
 }
 
-.ms_jumbotron .ms_box .ms_account_google i{
+.ms_jumbotron .ms_box .ms_account_google img{
+  width: 20px;
   position: absolute;
   top: 50%;
-  left: 5%;
+  left: 2%;
   transform: translateY(-50%);
   color: black;
 }
