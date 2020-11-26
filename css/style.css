@@ -336,7 +336,7 @@ section#customers{
 /* /THIRD SECTION */
 
 /* FOURTH SECTION */
-#features img{
+section#features img{
   margin-top: 20px;
 }
 
@@ -352,4 +352,46 @@ section#customers{
   vertical-align: middle;
 }
 /* /FOURTH SECTION */
+
+/* FIFTH SECTION */
+section#service{
+  background-image: linear-gradient(#0047c5, #001e9a);
+}
+
+#service h2{
+  color: white;
+}
+
+#service a{
+  color: #00d5d2;
+}
+
+#service .code,
+#service .city,
+#service .speedtest{
+  display: inline-block;
+  padding-left: 12px;
+}
+
+#service .code{
+  width: 15%;
+}
+
+#service .city{
+  width: 65%;
+}
+
+#service .speedtest{
+  width: 18%;
+}
+
+#service [class*=_row]{
+  border-bottom: 1px solid white;
+  padding: 10px 0;
+}
+
+#service .sixth_row{
+  border: none;
+}
+/* /FIFTH SECTION */
 /* MAIN */
