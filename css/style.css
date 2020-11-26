@@ -394,4 +394,110 @@ section#service{
   border: none;
 }
 /* /FIFTH SECTION */
+
+/* SIXTH SECTION */
+section#development{
+  background-color: #f3f5f9;
+}
+
+#development .rockerbox{
+  width: 100%;
+  height: 100%;
+  padding: 80px 0;
+  margin: 80px 0 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+#development .rockerbox img{
+  width: 50%;
+}
+
+#development .rockerbox p{
+  margin: 20px 0;
+}
+
+#development .rockerbox span{
+  display: block;
+  margin: 5px 0;
+  color: black;
+}
+
+#development .rockerbox a{
+  color: #006aff;
+}
+
+#development .rockerbox i{
+  vertical-align: middle;
+}
+
+#development h2{
+  color: #031c4e;
+}
+
+#development .ms_arrow{
+  margin-top: 100%;
+  font-size: 20px;
+}
+
+#development .ms_arrow_left{
+  color: #6f7b97;
+}
+
+#development .ms_arrow_right{
+  color: #031c4e;
+}
+
+#development i:hover{
+  cursor: pointer;
+}
+
+#development span{
+  width: 100%;
+  display: inline-block;
+  color: #031c4e;
+  margin: 10px 0 40px;
+  font-size: 15px;
+}
+
+#development span i{
+  color: #006aff;
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 768px) {
+
+  #development .rockerbox img{
+    width: 100%;
+  }
+
+  #development .rockerbox{
+    padding: 40px 0;
+    margin: 60px 0 20px;
+  }
+
+}
+
+@media screen and (max-width: 1200px) {
+
+  #development .rockerbox img{
+    width: 80%;
+  }
+
+  #development .rockerbox{
+    padding: 40px 0;
+    margin: 60px 0 20px;
+  }
+
+}
+
+@media screen and (max-width: 991px) {
+
+  #development .ms_arrow{
+    margin-top: 140%;
+  }
+
+}
+/* /SIXTH SECTION */
 /* MAIN */
