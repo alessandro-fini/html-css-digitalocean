@@ -205,7 +205,7 @@ section#customers{
 
 #customers .ms_img_box{
   width: 100%;
-  height: 100%;
+  height: 80px;
   position: relative;
   margin: 80px 0;
 }
@@ -224,6 +224,14 @@ section#customers{
 
 #customers i{
   vertical-align: middle;
+}
+
+@media screen and (max-width: 1199px) {
+
+  #customers .ms_img_box{
+    height: 10px;
+  }
+
 }
 /* /FIRST SECTION */
 
